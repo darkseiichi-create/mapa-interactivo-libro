@@ -1,0 +1,45 @@
+{
+    "image": {
+        "width": 6201,
+        "height": 4429
+    },
+    "projection": {
+        "bounds": [
+            [
+                -3100.5,
+                -5977.5
+            ],
+            [
+                5091.5,
+                2214.5
+            ]
+        ],
+        "cycled": [
+            false,
+            false
+        ]
+    },
+    "map": {
+        "zoomRange": {
+            "min": 0,
+            "max": 4
+        },
+        "mode": "raster",
+        "restrictMapArea": [
+            [
+                -3100.5,
+                -2214.5
+            ],
+            [
+                3100.5,
+                2214.5
+            ]
+        ],
+        "worldOptions": {
+            "cycledX": false
+        }
+    },
+    "tiles": {
+        "pathTemplate": "{{z}}/{{y}}-{{x}}.png"
+    }
+}

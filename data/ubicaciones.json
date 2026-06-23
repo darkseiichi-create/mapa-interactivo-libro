@@ -1,0 +1,67 @@
+[
+  
+  {
+    "id": "lev01",
+    "nombre": "Levanesse",
+    "tipo": "ciudad",
+    "faccion": "Feudom", 
+    "coordenadas": [1434, 1807],
+    "descripcion": "La ciudad amurallada."
+  },
+  {
+    "id": "lev02",
+    "nombre": "Audrehem",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1392, 1964],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "lev03",
+    "nombre": "Armand",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1412, 2156],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "lev04",
+    "nombre": "Jauffret",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1495, 2222],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "lev05",
+    "nombre": "Laguna Arona",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1510, 1994],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "lev06",
+    "nombre": "Punta de Esperanza",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1578, 2003],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "lev06",
+    "nombre": "Punta de Esperanza",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1578, 2003],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "landry01",
+    "nombre": "Villa de Landry",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1342, 2298],
+    "descripcion": "Puesto de control secundario."
+  }
+]

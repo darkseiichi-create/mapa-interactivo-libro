@@ -1,0 +1,116 @@
+[
+     {
+      "id": "halito",
+      "nombre": "Hálito del Arquitecto",
+      "imagen": "assets/icons/fronteras/halito.png",
+      "icono": "assets/buttons/halito.png",
+      "faccion": "Vastagos"
+    },
+    {
+      "id": "losna",
+      "nombre": "Tierras de Losna",
+      "imagen": "assets/icons/fronteras/losna.png",
+      "icono": "assets/buttons/losna.png",
+      "faccion": "Feudom"
+    },
+    {
+      "id": "Landry",
+      "nombre": "Condado de Landry",
+      "imagen": "assets/icons/fronteras/landry.png",
+      "icono": "assets/buttons/landry.png",
+      "faccion": "Feudom"
+    },
+    {
+      "id": "Levanesse",
+      "nombre": "Ducado de Levanesse",
+      "imagen": "assets/icons/fronteras/levanesse.png",
+      "icono": "assets/buttons/levanesse.png",
+      "faccion": "Feudom"
+    },
+       {
+      "id": "tierrasfronterizas",
+      "nombre": "Tierras fronterizas",
+      "imagen": "assets/icons/fronteras/tierrasfronterizas.png",
+      "icono": "assets/buttons/tierras.png",
+      "faccion": "Feudom"
+    },
+       {
+      "id": "silem",
+      "nombre": "Condado de Silem",
+      "imagen": "assets/icons/fronteras/silem.png",
+      "icono": "assets/buttons/silem.png",
+      "faccion": "Feudom"
+    },
+       {
+      "id": "havraincourt",
+      "nombre": "Ducado de Havraincourt",
+      "imagen": "assets/icons/fronteras/havraincourt.png",
+      "icono": "assets/buttons/havraincourt.png",
+      "faccion": "Feudom"
+    },
+       {
+      "id": "arbenaux",
+      "nombre": "Ducado de Arbenaux",
+      "imagen": "assets/icons/fronteras/arbenaux.png",
+      "icono": "assets/buttons/arbeneaux.png",
+      "faccion": "Feudom"
+    },
+       {
+      "id": "aurore",
+      "nombre": "Ducado de aurore",
+      "imagen": "assets/icons/fronteras/aurore.png",
+      "icono": "assets/buttons/aurore.png",
+      "faccion": "Feudom"
+    },
+       {
+      "id": "marca",
+      "nombre": "Marca del Norte",
+      "imagen": "assets/icons/fronteras/marca.png",
+      "icono": "assets/buttons/marca.png",
+      "faccion": "Feudom"
+    },
+       {
+      "id": "osmarcos",
+      "nombre": "Os Marcos",
+      "imagen": "assets/icons/fronteras/osmarcos.png",
+      "icono": "assets/buttons/osmarcos.png",
+      "faccion": "Hegemonia"
+    },
+       {
+      "id": "foly",
+      "nombre": "Folyközött",
+      "imagen": "assets/icons/fronteras/folykozott.png",
+      "icono": "assets/buttons/folykozott.png",
+      "faccion": "Hegemonia"
+    },
+       {
+      "id": "szarbhak",
+      "nombre": "Szarbhak",
+      "imagen": "assets/icons/fronteras/szarbhak.png",
+      "icono": "assets/buttons/szarbhak.png",
+      "faccion": "Hegemonia"
+    },
+       {
+      "id": "grotgard",
+      "nombre": "Grotgard",
+      "imagen": "assets/icons/fronteras/grotgard.png",
+      "icono": "assets/buttons/grotgard.png",
+      "faccion": "Tribus"
+    },
+       {
+      "id": "boreales",
+      "nombre": "Tierras Boreales",
+      "imagen": "assets/icons/fronteras/tierrasboreales.png",
+      "icono": "assets/buttons/tierrasboreales.png",
+      "faccion": "Tribus"
+    },
+       {
+      "id": "cadenas",
+      "nombre": "Isla de las Cadenas",
+      "imagen": "assets/icons/fronteras/islacadenas.png",
+      "icono": "assets/buttons/islacadenas.png",
+      "faccion": "Tribus"
+    }
+     
+     
+  ]

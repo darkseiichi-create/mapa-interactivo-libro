@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <button id="boton-menu">☰ Menú</button>
+
+    <div id="menu-lateral">
+        <h2>Filtros del Mapa</h2>
+        
+        <label>
+            <input type="checkbox" id="filtro-ciudades" checked> Ciudades
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="filtro-hitos" checked> Hitos Naturales
+        </label>
+        
+        <h3>Facciones</h3>
+          <div class="faccion-seccion">
+    <img src="assets/buttons/hegemoniaregiones.png" id="toggle-hegemonia" class="btn-faccion-toggle">
+    <div id="lista-regiones-hegemonia" class="sublista"></div>
+</div>
+
+<div class="faccion-seccion">
+    <img src="assets/buttons/tribusregiones.png" id="toggle-tribus" class="btn-faccion-toggle">
+    <div id="lista-regiones-tribus" class="sublista"></div>
+</div>
+     <div class="faccion-seccion">
+    <img src="assets/buttons/vastagosregiones.png" id="toggle-vastagos" class="btn-faccion-toggle">
+    <div id="lista-regiones-vastagos" class="sublista"></div>
+</div>
+<div class="faccion-seccion">
+    <img src="assets/buttons/syennanregiones.png" id="toggle-syennan" class="btn-faccion-toggle">
+    <div id="lista-regiones-syennan" class="sublista"></div>
+</div>
+     
+        <div class="faccion-seccion">
+    <img src="assets/buttons/mounthavenregiones.png" id="toggle-mounthaven" class="btn-faccion-toggle">
+    <div id="lista-regiones-mounthaven" class="sublista"></div>
+</div>
+
+<div class="faccion-seccion">
+    <img src="assets/buttons/feudomregiones.png" id="toggle-feudom" class="btn-faccion-toggle">
+    <div id="lista-regiones-feudom" class="sublista"></div>
+</div>
+
+<div class="faccion-seccion">
+    <img src="assets/buttons/alianzaregiones.png" id="toggle-alianza" class="btn-faccion-toggle">
+    <div id="lista-regiones-alianza" class="sublista"></div>
+</div>
+
+
+    </div> <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
