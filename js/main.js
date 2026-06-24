@@ -114,7 +114,7 @@ fetch('data/ubicaciones.json')
     })
     .catch(error => console.error("Error al cargar las ubicaciones:", error));
 
-// 4.2 Cargar Regiones (Imágenes Overlay) - ¡AQUÍ ESTABA EL ERROR ARREGLADO!
+// 4.2 Cargar Regiones (Imágenes Overlay) - 
 fetch('data/regiones.json')
     .then(r => r.json())
     .then(datos => {
@@ -132,7 +132,6 @@ fetch('data/regiones.json')
                 btnImg.className = 'btn-region-img';
                 btnImg.title = region.nombre;
                 
-                // Vinculamos la capa de Leaflet al botón para que el "Botón Maestro" la encuentre
                 btnImg.capaLeaflet = imgLayer; 
                 
                 btnImg.onclick = () => {

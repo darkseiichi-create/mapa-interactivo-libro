@@ -2,280 +2,280 @@
      {
       "id": "halito",
       "nombre": "Hálito del Arquitecto",
-      "imagen": "assets/icons/fronteras/halito.png",
+      "imagen": "assets/icons/fronteras/halito.webp",
       "icono": "assets/buttons/halito.png",
       "faccion": "Vastagos"
     },
     {
       "id": "losna",
       "nombre": "Tierras de Losna",
-      "imagen": "assets/icons/fronteras/losna.png",
+      "imagen": "assets/icons/fronteras/losna.webp",
       "icono": "assets/buttons/losna.png",
       "faccion": "Feudom"
     },
     {
       "id": "Landry",
       "nombre": "Condado de Landry",
-      "imagen": "assets/icons/fronteras/landry.png",
+      "imagen": "assets/icons/fronteras/landry.webp",
       "icono": "assets/buttons/landry.png",
       "faccion": "Feudom"
     },
     {
       "id": "Levanesse",
       "nombre": "Ducado de Levanesse",
-      "imagen": "assets/icons/fronteras/levanesse.png",
+      "imagen": "assets/icons/fronteras/levanesse.webp",
       "icono": "assets/buttons/levanesse.png",
       "faccion": "Feudom"
     },
        {
       "id": "tierrasfronterizas",
       "nombre": "Tierras fronterizas",
-      "imagen": "assets/icons/fronteras/tierrasfronterizas.png",
+      "imagen": "assets/icons/fronteras/tierrasfronterizas.webp",
       "icono": "assets/buttons/tierras.png",
       "faccion": "Feudom"
     },
        {
       "id": "silem",
       "nombre": "Condado de Silem",
-      "imagen": "assets/icons/fronteras/silem.png",
+      "imagen": "assets/icons/fronteras/silem.webp",
       "icono": "assets/buttons/silem.png",
       "faccion": "Feudom"
     },
        {
       "id": "havraincourt",
       "nombre": "Ducado de Havraincourt",
-      "imagen": "assets/icons/fronteras/havraincourt.png",
+      "imagen": "assets/icons/fronteras/havraincourt.webp",
       "icono": "assets/buttons/havraincourt.png",
       "faccion": "Feudom"
     },
        {
       "id": "arbenaux",
       "nombre": "Ducado de Arbenaux",
-      "imagen": "assets/icons/fronteras/arbenaux.png",
+      "imagen": "assets/icons/fronteras/arbenaux.webp",
       "icono": "assets/buttons/arbeneaux.png",
       "faccion": "Feudom"
     },
        {
       "id": "aurore",
       "nombre": "Ducado de aurore",
-      "imagen": "assets/icons/fronteras/aurore.png",
+      "imagen": "assets/icons/fronteras/aurore.webp",
       "icono": "assets/buttons/aurore.png",
       "faccion": "Feudom"
     },
        {
       "id": "marca",
       "nombre": "Marca del Norte",
-      "imagen": "assets/icons/fronteras/marca.png",
+      "imagen": "assets/icons/fronteras/marca.webp",
       "icono": "assets/buttons/marca.png",
       "faccion": "Feudom"
     },
        {
       "id": "osmarcos",
       "nombre": "Os Marcos",
-      "imagen": "assets/icons/fronteras/osmarcos.png",
+      "imagen": "assets/icons/fronteras/osmarcos.webp",
       "icono": "assets/buttons/osmarcos.png",
       "faccion": "Hegemonia"
     },
        {
       "id": "foly",
       "nombre": "Folyközött",
-      "imagen": "assets/icons/fronteras/folykozott.png",
+      "imagen": "assets/icons/fronteras/folykozott.webp",
       "icono": "assets/buttons/folykozott.png",
       "faccion": "Hegemonia"
     },
        {
       "id": "szarbhak",
       "nombre": "Szarbhak",
-      "imagen": "assets/icons/fronteras/szarbhak.png",
+      "imagen": "assets/icons/fronteras/szarbhak.webp",
       "icono": "assets/buttons/szarbhak.png",
       "faccion": "Hegemonia"
     },
            {
       "id": "Lemedia",
       "nombre": "Lemédia",
-      "imagen": "assets/icons/fronteras/lemedia.png",
+      "imagen": "assets/icons/fronteras/lemedia.webp",
       "icono": "assets/buttons/lemedia.png",
       "faccion": "Hegemonia"
     },
            {
       "id": "Balajia",
       "nombre": "Balajia",
-      "imagen": "assets/icons/fronteras/balajia.png",
+      "imagen": "assets/icons/fronteras/balajia.webp",
       "icono": "assets/buttons/balajia.png",
       "faccion": "Hegemonia"
     },
            {
       "id": "Herdelkoz",
       "nombre": "herdelkoz",
-      "imagen": "assets/icons/fronteras/herdelkoz.png",
+      "imagen": "assets/icons/fronteras/herdelkoz.webp",
       "icono": "assets/buttons/herdelkoz.png",
       "faccion": "Hegemonia"
     },
            {
       "id": "Kelentia",
       "nombre": "Kelentia",
-      "imagen": "assets/icons/fronteras/kelentia.png",
+      "imagen": "assets/icons/fronteras/kelentia.webp",
       "icono": "assets/buttons/kelentia.png",
       "faccion": "Hegemonia"
     },
            {
       "id": "bakhlia",
       "nombre": "Bakhlia",
-      "imagen": "assets/icons/fronteras/bakhlia.png",
+      "imagen": "assets/icons/fronteras/bakhlia.webp",
       "icono": "assets/buttons/bakhlia.png",
       "faccion": "Hegemonia"
     },
            {
       "id": "Micenghai",
       "nombre": "Micenghai",
-      "imagen": "assets/icons/fronteras/micenghai.png",
+      "imagen": "assets/icons/fronteras/micenghai.webp",
       "icono": "assets/buttons/micenghai.png",
       "faccion": "Hegemonia"
     },
        {
       "id": "grotgard",
       "nombre": "Grotgard",
-      "imagen": "assets/icons/fronteras/grotgard.png",
+      "imagen": "assets/icons/fronteras/grotgard.webp",
       "icono": "assets/buttons/grotgard.png",
       "faccion": "Tribus"
     },
        {
       "id": "boreales",
       "nombre": "Tierras Boreales",
-      "imagen": "assets/icons/fronteras/tierrasboreales.png",
+      "imagen": "assets/icons/fronteras/tierrasboreales.webp",
       "icono": "assets/buttons/tierrasboreales.png",
       "faccion": "Tribus"
     },
        {
       "id": "cadenas",
       "nombre": "Isla de las Cadenas",
-      "imagen": "assets/icons/fronteras/islacadenas.png",
+      "imagen": "assets/icons/fronteras/islacadenas.webp",
       "icono": "assets/buttons/islacadenas.png",
       "faccion": "Tribus"
     },
        {
       "id": "fronda",
       "nombre": "La Fronda",
-      "imagen": "assets/icons/fronteras/fronda.png",
+      "imagen": "assets/icons/fronteras/fronda.webp",
       "icono": "assets/buttons/fronda.png",
       "faccion": "Syennan"
     },
        {
       "id": "cedros",
       "nombre": "Los Cedros",
-      "imagen": "assets/icons/fronteras/cedros.png",
+      "imagen": "assets/icons/fronteras/cedros.webp",
       "icono": "assets/buttons/cedros.png",
       "faccion": "Syennan"
     },
        {
       "id": "arboleda",
       "nombre": "Arboleda Arcana",
-      "imagen": "assets/icons/fronteras/arboleda.png",
+      "imagen": "assets/icons/fronteras/arboleda.webp",
       "icono": "assets/buttons/arboleda.png",
       "faccion": "Syennan"
     },
        {
       "id": "maevhan",
       "nombre": "Maevhan",
-      "imagen": "assets/icons/fronteras/maevhan.png",
+      "imagen": "assets/icons/fronteras/maevhan.webp",
       "icono": "assets/buttons/maevhan.png",
       "faccion": "Syennan"
     },
        {
       "id": "hiedras",
       "nombre": "Hiedras Plateadas",
-      "imagen": "assets/icons/fronteras/hiedras.png",
+      "imagen": "assets/icons/fronteras/hiedras.webp",
       "icono": "assets/buttons/hiedras.png",
       "faccion": "Syennan"
     },
        {
       "id": "eadhar",
       "nombre": "Eadhar",
-      "imagen": "assets/icons/fronteras/eadhar.png",
+      "imagen": "assets/icons/fronteras/eadhar.webp",
       "icono": "assets/buttons/eadhar.png",
       "faccion": "Syennan"
     },
        {
       "id": "Bosque",
       "nombre": "Bosque Sin Retorno",
-      "imagen": "assets/icons/fronteras/bosque.png",
+      "imagen": "assets/icons/fronteras/bosque.webp",
       "icono": "assets/buttons/bosque.png",
       "faccion": "Syennan"
     },
        {
       "id": "laoidhean",
       "nombre": "Laoidhean",
-      "imagen": "assets/icons/fronteras/laoidhean.png",
+      "imagen": "assets/icons/fronteras/laoidhean.webp",
       "icono": "assets/buttons/laoidhean.png",
       "faccion": "Syennan"
     },
        {
       "id": "Bosqueignoto",
       "nombre": "Bosque Ignoto",
-      "imagen": "assets/icons/fronteras/bosquei.png",
+      "imagen": "assets/icons/fronteras/bosquei.webp",
       "icono": "assets/buttons/bosquei.png",
       "faccion": "Syennan"
     },
        {
       "id": "batiza",
       "nombre": "Montes de Batiza",
-      "imagen": "assets/icons/fronteras/batiza.png",
+      "imagen": "assets/icons/fronteras/batiza.webp",
       "icono": "assets/buttons/batiza.png",
       "faccion": "Mounthaven"
     },
        {
       "id": "gabila",
       "nombre": "Montañas de Gabila",
-      "imagen": "assets/icons/fronteras/gabila.png",
+      "imagen": "assets/icons/fronteras/gabila.webp",
       "icono": "assets/buttons/gabila.png",
       "faccion": "Mounthaven"
     },
        {
       "id": "karkara",
       "nombre": "Karkara",
-      "imagen": "assets/icons/fronteras/karkara.png",
+      "imagen": "assets/icons/fronteras/karkara.webp",
       "icono": "assets/buttons/karkara.png",
       "faccion": "Mounthaven"
     },
        {
       "id": "harduba",
       "nombre": "Montañas de Harduba",
-      "imagen": "assets/icons/fronteras/harduba.png",
+      "imagen": "assets/icons/fronteras/harduba.webp",
       "icono": "assets/buttons/harduba.png",
       "faccion": "Mounthaven"
     },
        {
       "id": "maitalO",
       "nombre": "Minas de Maital - Oeste",
-      "imagen": "assets/icons/fronteras/maitalo.png",
+      "imagen": "assets/icons/fronteras/maitalo.webp",
       "icono": "assets/buttons/maitalo.png",
       "faccion": "Mounthaven"
     },
        {
       "id": "maitalE",
       "nombre": "Minas de Maital - Este",
-      "imagen": "assets/icons/fronteras/maitale.png",
+      "imagen": "assets/icons/fronteras/maitale.webp",
       "icono": "assets/buttons/maitale.png",
       "faccion": "Mounthaven"
     },
        {
       "id": "maitalC",
       "nombre": "Minas de Maital - Central",
-      "imagen": "assets/icons/fronteras/maitalc.png",
+      "imagen": "assets/icons/fronteras/maitalc.webp",
       "icono": "assets/buttons/maitalc.png",
       "faccion": "Mounthaven"
     },
        {
       "id": "maitalN",
       "nombre": "Minas de Maital - Norte",
-      "imagen": "assets/icons/fronteras/maitaln.png",
+      "imagen": "assets/icons/fronteras/maitaln.webp",
       "icono": "assets/buttons/maitaln.png",
       "faccion": "Mounthaven"
     },
        {
       "id": "ali",
       "nombre": "Alianza de Mercaderes",
-      "imagen": "assets/icons/fronteras/alianza.png",
+      "imagen": "assets/icons/fronteras/alianza.webp",
       "icono": "assets/buttons/alianza.png",
       "faccion": "Alianza"
     }
