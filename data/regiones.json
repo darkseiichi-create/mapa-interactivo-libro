@@ -90,6 +90,48 @@
       "icono": "assets/buttons/szarbhak.png",
       "faccion": "Hegemonia"
     },
+           {
+      "id": "Lemedia",
+      "nombre": "Lemédia",
+      "imagen": "assets/icons/fronteras/lemedia.png",
+      "icono": "assets/buttons/lemedia.png",
+      "faccion": "Hegemonia"
+    },
+           {
+      "id": "Balajia",
+      "nombre": "Balajia",
+      "imagen": "assets/icons/fronteras/balajia.png",
+      "icono": "assets/buttons/balajia.png",
+      "faccion": "Hegemonia"
+    },
+           {
+      "id": "Herdelkoz",
+      "nombre": "herdelkoz",
+      "imagen": "assets/icons/fronteras/herdelkoz.png",
+      "icono": "assets/buttons/herdelkoz.png",
+      "faccion": "Hegemonia"
+    },
+           {
+      "id": "Kelentia",
+      "nombre": "Kelentia",
+      "imagen": "assets/icons/fronteras/kelentia.png",
+      "icono": "assets/buttons/kelentia.png",
+      "faccion": "Hegemonia"
+    },
+           {
+      "id": "bakhlia",
+      "nombre": "Bakhlia",
+      "imagen": "assets/icons/fronteras/bakhlia.png",
+      "icono": "assets/buttons/bakhlia.png",
+      "faccion": "Hegemonia"
+    },
+           {
+      "id": "Micenghai",
+      "nombre": "Micenghai",
+      "imagen": "assets/icons/fronteras/micenghai.png",
+      "icono": "assets/buttons/micenghai.png",
+      "faccion": "Hegemonia"
+    },
        {
       "id": "grotgard",
       "nombre": "Grotgard",
@@ -110,7 +152,135 @@
       "imagen": "assets/icons/fronteras/islacadenas.png",
       "icono": "assets/buttons/islacadenas.png",
       "faccion": "Tribus"
+    },
+       {
+      "id": "fronda",
+      "nombre": "La Fronda",
+      "imagen": "assets/icons/fronteras/fronda.png",
+      "icono": "assets/buttons/fronda.png",
+      "faccion": "Syennan"
+    },
+       {
+      "id": "cedros",
+      "nombre": "Los Cedros",
+      "imagen": "assets/icons/fronteras/cedros.png",
+      "icono": "assets/buttons/cedros.png",
+      "faccion": "Syennan"
+    },
+       {
+      "id": "arboleda",
+      "nombre": "Arboleda Arcana",
+      "imagen": "assets/icons/fronteras/arboleda.png",
+      "icono": "assets/buttons/arboleda.png",
+      "faccion": "Syennan"
+    },
+       {
+      "id": "maevhan",
+      "nombre": "Maevhan",
+      "imagen": "assets/icons/fronteras/maevhan.png",
+      "icono": "assets/buttons/maevhan.png",
+      "faccion": "Syennan"
+    },
+       {
+      "id": "hiedras",
+      "nombre": "Hiedras Plateadas",
+      "imagen": "assets/icons/fronteras/hiedras.png",
+      "icono": "assets/buttons/hiedras.png",
+      "faccion": "Syennan"
+    },
+       {
+      "id": "eadhar",
+      "nombre": "Eadhar",
+      "imagen": "assets/icons/fronteras/eadhar.png",
+      "icono": "assets/buttons/eadhar.png",
+      "faccion": "Syennan"
+    },
+       {
+      "id": "Bosque",
+      "nombre": "Bosque Sin Retorno",
+      "imagen": "assets/icons/fronteras/bosque.png",
+      "icono": "assets/buttons/bosque.png",
+      "faccion": "Syennan"
+    },
+       {
+      "id": "laoidhean",
+      "nombre": "Laoidhean",
+      "imagen": "assets/icons/fronteras/laoidhean.png",
+      "icono": "assets/buttons/laoidhean.png",
+      "faccion": "Syennan"
+    },
+       {
+      "id": "Bosqueignoto",
+      "nombre": "Bosque Ignoto",
+      "imagen": "assets/icons/fronteras/bosquei.png",
+      "icono": "assets/buttons/bosquei.png",
+      "faccion": "Syennan"
+    },
+       {
+      "id": "batiza",
+      "nombre": "Montes de Batiza",
+      "imagen": "assets/icons/fronteras/batiza.png",
+      "icono": "assets/buttons/batiza.png",
+      "faccion": "Mounthaven"
+    },
+       {
+      "id": "gabila",
+      "nombre": "Montañas de Gabila",
+      "imagen": "assets/icons/fronteras/gabila.png",
+      "icono": "assets/buttons/gabila.png",
+      "faccion": "Mounthaven"
+    },
+       {
+      "id": "karkara",
+      "nombre": "Karkara",
+      "imagen": "assets/icons/fronteras/karkara.png",
+      "icono": "assets/buttons/karkara.png",
+      "faccion": "Mounthaven"
+    },
+       {
+      "id": "harduba",
+      "nombre": "Montañas de Harduba",
+      "imagen": "assets/icons/fronteras/harduba.png",
+      "icono": "assets/buttons/harduba.png",
+      "faccion": "Mounthaven"
+    },
+       {
+      "id": "maitalO",
+      "nombre": "Minas de Maital - Oeste",
+      "imagen": "assets/icons/fronteras/maitalo.png",
+      "icono": "assets/buttons/maitalo.png",
+      "faccion": "Mounthaven"
+    },
+       {
+      "id": "maitalE",
+      "nombre": "Minas de Maital - Este",
+      "imagen": "assets/icons/fronteras/maitale.png",
+      "icono": "assets/buttons/maitale.png",
+      "faccion": "Mounthaven"
+    },
+       {
+      "id": "maitalC",
+      "nombre": "Minas de Maital - Central",
+      "imagen": "assets/icons/fronteras/maitalc.png",
+      "icono": "assets/buttons/maitalc.png",
+      "faccion": "Mounthaven"
+    },
+       {
+      "id": "maitalN",
+      "nombre": "Minas de Maital - Norte",
+      "imagen": "assets/icons/fronteras/maitaln.png",
+      "icono": "assets/buttons/maitaln.png",
+      "faccion": "Mounthaven"
+    },
+       {
+      "id": "ali",
+      "nombre": "Alianza de Mercaderes",
+      "imagen": "assets/icons/fronteras/alianza.png",
+      "icono": "assets/buttons/alianza.png",
+      "faccion": "Alianza"
     }
+     
+     
      
      
   ]

@@ -22,42 +22,59 @@
             <input type="checkbox" id="filtro-hitos" checked> Hitos Naturales
         </label>
         
-        <h3>Facciones</h3>
-          <div class="faccion-seccion">
-    <img src="assets/buttons/hegemoniaregiones.png" id="toggle-hegemonia" class="btn-faccion-toggle">
-    <div id="lista-regiones-hegemonia" class="sublista"></div>
-</div>
+        <h3 id="titulo-facciones" class="titulo-desplegable">Regiones ▼</h3>
 
-<div class="faccion-seccion">
-    <img src="assets/buttons/tribusregiones.png" id="toggle-tribus" class="btn-faccion-toggle">
-    <div id="lista-regiones-tribus" class="sublista"></div>
-</div>
-     <div class="faccion-seccion">
-    <img src="assets/buttons/vastagosregiones.png" id="toggle-vastagos" class="btn-faccion-toggle">
-    <div id="lista-regiones-vastagos" class="sublista"></div>
-</div>
-<div class="faccion-seccion">
-    <img src="assets/buttons/syennanregiones.png" id="toggle-syennan" class="btn-faccion-toggle">
-    <div id="lista-regiones-syennan" class="sublista"></div>
-</div>
-     
-        <div class="faccion-seccion">
-    <img src="assets/buttons/mounthavenregiones.png" id="toggle-mounthaven" class="btn-faccion-toggle">
-    <div id="lista-regiones-mounthaven" class="sublista"></div>
-</div>
+        <div id="contenedor-facciones" class="seccion-maestra activa">
+            
+                      
+            <div class="fila-botones-globales">
+                <img src="assets/icons/logos/hegemonialogo.png" id="global-hegemonia" class="btn-global" title="Activar/Desactivar Hegemonía">
+                <img src="assets/icons/logos/tribuslogo.png" id="global-tribus" class="btn-global" title="Activar/Desactivar Tribus">
+                <img src="assets/icons/logos/yaldilogo.png" id="global-vastagos" class="btn-global" title="Activar/Desactivar Vástagos">
+                <img src="assets/icons/logos/syennanlogo.png" id="global-syennan" class="btn-global" title="Activar/Desactivar Syennan">
+                <img src="assets/icons/logos/mounthavenlogo.png" id="global-mounthaven" class="btn-global" title="Activar/Desactivar Mounthaven">
+                <img src="assets/icons/logos/feudomlogo.png" id="global-feudom" class="btn-global" title="Activar/Desactivar Feudom">
+                <img src="assets/icons/logos/alianzalogo.png" id="global-alianza" class="btn-global" title="Mostrar/Ocultar regiones de la Alianza de Mercaderes">
+            </div>
 
-<div class="faccion-seccion">
-    <img src="assets/buttons/feudomregiones.png" id="toggle-feudom" class="btn-faccion-toggle">
-    <div id="lista-regiones-feudom" class="sublista"></div>
-</div>
+            <div class="faccion-seccion">
+                <img src="assets/buttons/hegemoniaregiones.png" id="toggle-hegemonia" class="btn-faccion-toggle">
+                <div id="lista-regiones-hegemonia" class="sublista"></div>
+            </div>
 
-<div class="faccion-seccion">
-    <img src="assets/buttons/alianzaregiones.png" id="toggle-alianza" class="btn-faccion-toggle">
-    <div id="lista-regiones-alianza" class="sublista"></div>
-</div>
+            <div class="faccion-seccion">
+                <img src="assets/buttons/tribusregiones.png" id="toggle-tribus" class="btn-faccion-toggle">
+                <div id="lista-regiones-tribus" class="sublista"></div>
+            </div>
+             
+            <div class="faccion-seccion">
+                <img src="assets/buttons/vastagosregiones.png" id="toggle-vastagos" class="btn-faccion-toggle">
+                <div id="lista-regiones-vastagos" class="sublista"></div>
+            </div>
 
+            <div class="faccion-seccion">
+                <img src="assets/buttons/syennanregiones.png" id="toggle-syennan" class="btn-faccion-toggle">
+                <div id="lista-regiones-syennan" class="sublista"></div>
+            </div>
+             
+            <div class="faccion-seccion">
+                <img src="assets/buttons/mounthavenregiones.png" id="toggle-mounthaven" class="btn-faccion-toggle">
+                <div id="lista-regiones-mounthaven" class="sublista"></div>
+            </div>
 
-    </div> <div id="map"></div>
+            <div class="faccion-seccion">
+                <img src="assets/buttons/feudomregiones.png" id="toggle-feudom" class="btn-faccion-toggle">
+                <div id="lista-regiones-feudom" class="sublista"></div>
+            </div>
+
+            <div class="faccion-seccion">
+                <img src="assets/buttons/alianzaregiones.png" id="toggle-alianza" class="btn-faccion-toggle">
+                <div id="lista-regiones-alianza" class="sublista"></div>
+            </div>
+
+        </div> 
+        </div> 
+    <div id="map"></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="js/main.js"></script>

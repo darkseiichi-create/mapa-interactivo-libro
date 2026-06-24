@@ -38,17 +38,17 @@ body, html {
 #menu-lateral {
     position: absolute;
     top: 0;
-    left: -300px;
-    width: 250px;
+    left: -400px;
+    width: 380px;
     height: 100vh;
     background-color: rgba(26, 26, 26, 0.95);
     color: white;
     z-index: 1000;
     transition: left 0.3s ease;
+    box-sizing: border-box;
     padding: 80px 20px 20px 20px; /* Padding top aumentado para dejar hueco al botón */
     box-shadow: 2px 0 5px rgba(0,0,0,0.5);
     overflow-y: auto;
-    overflow-x: hidden;
     padding-bottom: 20px;
 }
 
@@ -196,10 +196,65 @@ body, html {
 }
 
 .sublista.activa {
-    max-height: 1000px; /* Altura suficiente */
+    max-height: 3000px; /* Súbelo bastante, a 2000px o 3000px para que nunca se quede corto */
     opacity: 1;
-    display: grid;      /* Aquí sí lo activamos al abrir */
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 10px 0;
+}
+
+/* Contenedor Flexbox para ponerlos en fila */
+.fila-botones-globales {
+    display: flex;
+    flex-wrap: nowrap; /* Si no caben en una línea, bajan a la siguiente */
+    gap: 5px;        /* Separación entre cuadraditos */
+    margin-bottom: 25px;
+    padding: 0 10px;
+    justify-content: space-between; /* Los centra en el menú */
+}
+
+/* Estilo de los botones maestros */
+.btn-global {
+    width: 35px;     /* Hazlos más grandes o pequeños según veas */
+    height: 35px;
+    object-fit: contain;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 5px; /* Bordes un poco redondeados */
+    transition: transform 0.2s ease, filter 0.3s ease;
+}
+
+.btn-global:hover {
+    transform: scale(1.15); /* Efecto zoom al pasar el ratón */
+}
+
+/* Estado apagado del botón maestro */
+.btn-global.apagado {
+    filter: grayscale(100%) opacity(0.5);
+}
+
+/* Estilo para que el título parezca un botón */
+.titulo-desplegable {
+    cursor: pointer;
+    transition: color 0.3s;
+    user-select: none; /* Evita que el texto se seleccione al hacer doble clic rápido */
+}
+
+.titulo-desplegable:hover {
+    color: #e0a96d; /* Un toque dorado al pasar el ratón */
+}
+
+/* El contenedor maestro de todas las facciones */
+.seccion-maestra {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.3s ease;
+    opacity: 0;
+}
+
+/* Clase para mostrar todo el bloque */
+.seccion-maestra.activa {
+    max-height: 8000px; /* Un número gigante para asegurar que quepa todo el contenido de las 7 facciones */
+    opacity: 1;
 }
