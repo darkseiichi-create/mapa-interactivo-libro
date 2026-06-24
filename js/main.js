@@ -58,13 +58,6 @@ const carpetasPorFaccion = {
     "Syennan": grupoRegionessyennan
 };
 
-// Encendemos todas las facciones por defecto
-const todosLosGrupos = [
-    grupoRegionesMounthaven, grupoRegionesFeudom, grupoRegionesalianza, 
-    grupoRegioneshegemonia, grupoRegionesvastagos, grupoRegionestribus, grupoRegionessyennan
-];
-todosLosGrupos.forEach(grupo => map.addLayer(grupo));
-
 
 // ==========================================
 // 3. SISTEMA DE DICCIONARIO DE ICONOS
@@ -129,10 +122,9 @@ fetch('data/regiones.json')
             if (contenedor) {
                 const btnImg = document.createElement('img');
                 btnImg.src = region.icono;
-                btnImg.className = 'btn-region-img';
+                btnImg.className = 'btn-region-img apagado'; 
                 btnImg.title = region.nombre;
-                
-                btnImg.capaLeaflet = imgLayer; 
+                btnImg.capaLeaflet = imgLayer;
                 
                 btnImg.onclick = () => {
                     if (map.hasLayer(imgLayer)) {
