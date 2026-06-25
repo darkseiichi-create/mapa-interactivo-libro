@@ -101,8 +101,8 @@ body, html {
 /* --- ESTILOS DE FACCIÓN: MOUNTHAVEN --- */
 .popup-mounthaven .leaflet-popup-content-wrapper,
 .popup-mounthaven .leaflet-popup-tip {
-    background-color: #1b263b !important; 
-    color: #e0a96d !important;
+    background-color: #8e6a06 !important; 
+    color: #ffffff !important;
     border: 2px solid #e0a96d;
 }
 
@@ -118,7 +118,7 @@ body, html {
     background-image: url('../assets/icons/logos/mounthavenlogo.png');
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: 0.25;
+    opacity: 0.3;
     z-index: -1;
 }
 
@@ -139,13 +139,108 @@ body, html {
     transform: translate(-50%, -50%);
     width: 70px;
     height: 70px;
-    background-image: url('../assets/icons/logos/Feudomlogo.png');
+    background-image: url('../assets/icons/logos/feudomlogo.png');
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.25;
     z-index: -1;
 }
 
+/* --- ESTILOS DE FACCIÓN: Hegemonia --- */
+.popup-hegemonia .leaflet-popup-content-wrapper,
+.popup-hegemonia .leaflet-popup-tip {
+    background-color: #2a2a2a !important; 
+    color: #e69509 !important;
+    border: 2px solid #e69509;
+}
+
+/* Marca de agua para Hegemonia */
+.popup-hegemonia .contenido-popup::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-image: url('../assets/icons/logos/hegemonialogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+/* --- ESTILOS DE FACCIÓN: Alianza --- */
+.popup-alianza .leaflet-popup-content-wrapper,
+.popup-alianza .leaflet-popup-tip {
+    background-color: #6d0160 !important; 
+    color: #f3e3c6 !important;
+    border: 2px solid #ffffff;
+}
+
+/* Marca de agua para Alianza */
+.popup-alianza .contenido-popup::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-image: url('../assets/icons/logos/alianzalogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    z-index: -1;
+}
+/* --- ESTILOS DE FACCIÓN: Tribus --- */
+.popup-tribus .leaflet-popup-content-wrapper,
+.popup-tribus .leaflet-popup-tip {
+    background-color: #025163 !important; 
+    color: #6ed0f9 !important;
+    border: 2px solid #6ed0f9;
+}
+
+/* Marca de agua para Tribus */
+.popup-tribus .contenido-popup::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-image: url('../assets/icons/logos/tribuslogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+/* --- ESTILOS DE FACCIÓN: Syennan --- */
+.popup-syennan .leaflet-popup-content-wrapper,
+.popup-syennan .leaflet-popup-tip {
+    background-color: #06350f !important; 
+    color: #7efa96 !important;
+    border: 2px solid #7efa96;
+}
+
+/* Marca de agua para Syennan */
+.popup-syennan .contenido-popup::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-image: url('../assets/icons/logos/alianzalogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    z-index: -1;
+
+}
 /* --- ESTILO NEUTRAL --- */
 .popup-neutral .leaflet-popup-content-wrapper,
 .popup-neutral .leaflet-popup-tip {
@@ -257,4 +352,89 @@ body, html {
 .seccion-maestra.activa {
     max-height: 8000px; /* Un número gigante para asegurar que quepa todo el contenido de las 7 facciones */
     opacity: 1;
+}
+
+/* Control del tamaño de la ventana de contenido */
+.contenido-popup {
+    max-width: 320px; /* Anchura máxima. Súbelo a 400px si quieres ventanas más anchas */
+    max-height: 250px; /* Altura máxima antes de que aparezca el scroll */
+    overflow-y: auto;  /* Crea la barra de desplazamiento si sobra texto */
+    padding-right: 10px; /* Para que el texto no se pegue a la barra de scroll */
+    text-align: justify;
+}
+
+/* Estilo para que las imágenes dentro del popup no se salgan de los bordes */
+.img-popup {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los hipervínculos (para que peguen con tu tema en lugar del azul feo por defecto) */
+.contenido-popup a {
+    color: #e0a96d;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dashed #e0a96d;
+}
+
+.contenido-popup a:hover {
+    color: #ffcc80;
+}
+
+/* --- VISOR DE IMÁGENES (MODAL) --- */
+#visor-imagenes {
+    position: fixed;
+    z-index: 9999; /* Esto asegura que esté por encima de TODO, incluido el menú */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85); /* Fondo negro tipo Drive */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none; /* Inactivo por defecto */
+    transition: opacity 0.3s ease;
+}
+
+#visor-imagenes.activo {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#imagen-ampliada {
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    object-fit: contain; /* Mantiene la proporción de la foto sin deformarla */
+}
+
+.cerrar-visor {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Modificamos la clase que creamos antes para darle efecto "botón" a la imagen del popup */
+.img-popup {
+    width: 75%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer; /* Cambia el cursor a la 'manita' */
+    transition: transform 0.2s ease;
+}
+
+.img-popup:hover {
+    transform: scale(1.03); /* Efecto de que "sobresale" al pasar el ratón */
 }

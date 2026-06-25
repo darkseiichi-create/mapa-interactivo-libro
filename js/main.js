@@ -16,7 +16,7 @@ const map = L.map('map', {
     maxZoom: maxZoomLevel
 });
 
-const margen = 10;
+const margen = 1100;
 const limitesMapa = [[-margen, -margen], [2220 + margen, 3100 + margen]];
 map.setMaxBounds(limitesMapa);
 map.fitBounds([[0, 0], [2220, 3100]], { padding: [50, 50] });
@@ -237,12 +237,12 @@ nombresFacciones.forEach(faccion => {
 // 6. HERRAMIENTAS DE DESARROLLO
 // ==========================================
 // Clic para obtener coordenadas
-map.on('click', function(e) {
-    let y = Math.round(e.latlng.lat); 
-    let x = Math.round(e.latlng.lng); 
-    console.log(`"coordenadas": [${y}, ${x}]`);
-    alert(`Coordenadas de este punto: [${y}, ${x}]`);
-});
+//map.on('click', function(e) {
+//   let y = Math.round(e.latlng.lat); 
+//    let x = Math.round(e.latlng.lng); 
+//    console.log(`"coordenadas": [${y}, ${x}]`);
+//    alert(`Coordenadas de este punto: [${y}, ${x}]`);
+//});
 
 // ==========================================
 // 7. DESPLEGABLE MAESTRO DE FACCIONES
@@ -263,4 +263,20 @@ if (tituloFacciones && contenedorFacciones) {
 } else {
     // Si sale esto en la consola, es que el HTML y el JS no se están comunicando
     console.error("Fallo: No se encontraron los IDs titulo-facciones o contenedor-facciones");
+}
+
+// ==========================================
+// 8. VISOR DE IMÁGENES EN GRANDE (LIGHTBOX)
+// ==========================================
+function abrirModal(rutaImagen) {
+    const visor = document.getElementById('visor-imagenes');
+    const imagenAmpliada = document.getElementById('imagen-ampliada');
+    
+    imagenAmpliada.src = rutaImagen;
+    visor.classList.add('activo');
+}
+
+function cerrarModal() {
+    const visor = document.getElementById('visor-imagenes');
+    visor.classList.remove('activo');
 }

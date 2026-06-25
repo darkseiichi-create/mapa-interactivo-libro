@@ -781,8 +781,7 @@
     "tipo": "hitos",
     "faccion": "neutral",
     "coordenadas": [585, 1043],
-    "descripcion": "Puesto de control secundario."
-  },
+    "descripcion": "<img src='assets/pics/chains.png' class='img-popup' onclick='abrirModal(this.src)'>Es una isla y tiene cadenas. Cumple lo que promete."  },
   {
     "id": "Grj08",
     "nombre": "Los Nidos",
@@ -821,7 +820,7 @@
     "tipo": "hitos",
     "faccion": "neutral",
     "coordenadas": [111, 2163],
-    "descripcion": "Puesto de control secundario."
+    "descripcion": "<img src='assets/pics/dedos.png' class='img-popup' onclick='abrirModal(this.src)'>Siete pilares... ya sacas tu conclusiones..." 
   },
   {
     "id": "appo02",
@@ -942,6 +941,14 @@
     "faccion": "neutral",
     "coordenadas": [701, 795],
     "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "wftn",
+    "nombre": "Senda de la Araña",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [760, 1078],
+    "descripcion": "Aquí transcurres los hechos narrados en Winds from the North.<br><br> <a href='https://downloads.corvusbelli.com/warcrow/wargame/resources/winds-from-the-north-esp.pdf' target='_blank'>Haz clic aquí para leer la campaña</a>"
   }
 
 ]
