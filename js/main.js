@@ -70,13 +70,18 @@ const crearIcono = (url) => L.icon({
 });
 
 const diccionarioIconos = {
-    "ciudad": crearIcono('assets/icons/icono-ciudad.png'),
+    "ciudad": crearIcono('assets/icons/ciudad-neutral.png'),
     "hitos": crearIcono('assets/icons/hitos.png')
 };
 
 const diccionarioFacciones = {
     "Mounthaven": crearIcono('assets/icons/ciudad-mounthaven.png'),
-    "Feudom": crearIcono('assets/icons/ciudad-feudom.png')
+    "Feudom": crearIcono('assets/icons/ciudad-feudom.png'),
+    "Alianza": crearIcono('assets/icons/ciudad-alianza.png'),
+    "Hegemonia": crearIcono('assets/icons/ciudad-hegemonia.png'),
+    "Vastagos": crearIcono('assets/icons/ciudad-vastagos.png'),
+    "Syennan": crearIcono('assets/icons/ciudad-syennan.png'),
+    "Tribus": crearIcono('assets/icons/ciudad-tribus.png')
 };
 
 

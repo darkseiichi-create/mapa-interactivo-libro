@@ -1,11 +1,42 @@
 [
-  
+  {
+    "id": "Os01",
+    "nombre": "Mougas",
+    "tipo": "ciudad",
+    "faccion": "Hegemonia", 
+    "coordenadas": [699, 1851],
+    "descripcion": "La ciudad amurallada."
+  },
+    {
+    "id": "Os02",
+    "nombre": "Las Gandaras",
+    "tipo": "hitos",
+    "faccion": "neutral", 
+    "coordenadas": [875, 1810],
+    "descripcion": "La ciudad amurallada."
+  }, 
+     {
+    "id": "Os03",
+    "nombre": "Isla de la Torre de la Ascension",
+    "tipo": "hitos",
+    "faccion": "neutral", 
+    "coordenadas": [877, 1928],
+    "descripcion": "La ciudad amurallada."
+  },
+      {
+    "id": "Os04",
+    "nombre": "Paso Ardiente",
+    "tipo": "hitos",
+    "faccion": "neutral", 
+    "coordenadas": [582, 1888],
+    "descripcion": "La ciudad amurallada."
+  },
   {
     "id": "lev01",
     "nombre": "Levanesse",
     "tipo": "ciudad",
     "faccion": "Feudom", 
-    "coordenadas": [1434, 1807],
+    "coordenadas": [1239, 1465],
     "descripcion": "La ciudad amurallada."
   },
   {
@@ -13,7 +44,7 @@
     "nombre": "Audrehem",
     "tipo": "ciudad",
     "faccion": "Feudom",
-    "coordenadas": [1392, 1964],
+    "coordenadas": [1204, 1579],
     "descripcion": "Puesto de control secundario."
   },
   {
@@ -21,7 +52,7 @@
     "nombre": "Armand",
     "tipo": "ciudad",
     "faccion": "Feudom",
-    "coordenadas": [1412, 2156],
+    "coordenadas": [1222, 1740],
     "descripcion": "Puesto de control secundario."
   },
   {
@@ -29,7 +60,7 @@
     "nombre": "Jauffret",
     "tipo": "ciudad",
     "faccion": "Feudom",
-    "coordenadas": [1495, 2222],
+    "coordenadas": [1292, 1804],
     "descripcion": "Puesto de control secundario."
   },
   {
@@ -37,7 +68,7 @@
     "nombre": "Laguna Arona",
     "tipo": "hitos",
     "faccion": "neutral",
-    "coordenadas": [1510, 1994],
+    "coordenadas": [1289, 1597],
     "descripcion": "Puesto de control secundario."
   },
   {
@@ -45,15 +76,7 @@
     "nombre": "Punta de Esperanza",
     "tipo": "hitos",
     "faccion": "neutral",
-    "coordenadas": [1578, 2003],
-    "descripcion": "Puesto de control secundario."
-  },
-  {
-    "id": "lev06",
-    "nombre": "Punta de Esperanza",
-    "tipo": "hitos",
-    "faccion": "neutral",
-    "coordenadas": [1578, 2003],
+    "coordenadas": [1354, 1620],
     "descripcion": "Puesto de control secundario."
   },
   {
@@ -61,7 +84,864 @@
     "nombre": "Villa de Landry",
     "tipo": "ciudad",
     "faccion": "Feudom",
-    "coordenadas": [1342, 2298],
+    "coordenadas": [1165, 1857],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "losna01",
+    "nombre": "Appell",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1121, 2013],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "losna02",
+    "nombre": "Castillo de Losna",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1303, 1921],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "losna03",
+    "nombre": "Palacio del Sempiternus",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1296, 2042],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "losna04",
+    "nombre": "Rocas de la Eternidad",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1143, 1951],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "losna05",
+    "nombre": "Palacio de la Luna",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1174, 2120],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tf01",
+    "nombre": "Pueblo Perdido",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1074, 2158],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tf02",
+    "nombre": "Monasterios",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1074, 2158],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tf03",
+    "nombre": "valle de Alvinenn",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1150, 2224],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tf04",
+    "nombre": "Silencieux",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1273, 2249],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tf05",
+    "nombre": "Bosque de Brouillard",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1313, 2186],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tf06",
+    "nombre": "Cordillera Aile",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [756, 2312],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "silem01",
+    "nombre": "Cañon de Silem",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1285, 1263],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "silem02",
+    "nombre": "Rabanford",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1350, 1250],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "silem03",
+    "nombre": "Bosque de la Cascada",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1196, 1281],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "silem04",
+    "nombre": "Arret",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1244, 1375],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "silem05",
+    "nombre": "Torre de las Mouras",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1282, 1390],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "silem06",
+    "nombre": "Despeñadero de los elfos",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1335, 1373],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "silem07",
+    "nombre": "Itsmo de Pleamar",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1217, 1435],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "havraincourt01",
+    "nombre": "El Muro",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1018, 1114],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "havraincourt02",
+    "nombre": "Bosque de Ygrain",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1050, 1190],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "havraincourt03",
+    "nombre": "Havraincourt",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1124, 1087],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "havraincourt04",
+    "nombre": "Olissipe",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1117, 1252],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "havraincourt05",
+    "nombre": "Oraculo del Durmiente",
+    "tipo": "hitos",
+    "faccion": "neutral", 
+    "coordenadas": [1166, 1145],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "arbenaux01",
+    "nombre": "Campo de Mamoas",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1007, 1280],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "arbenaux02",
+    "nombre": "Bosque de las Lanzas Floridas",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1068, 1328],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "arbenaux03",
+    "nombre": "Villemourt",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [1013, 1369],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "arbenaux04",
+    "nombre": "Isla de Antoine",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1053, 1468],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "arbenaux05",
+    "nombre": "Estaca de Borg",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1063, 1429],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "arbenaux06",
+    "nombre": "Arbeneaux",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [978, 1413],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "aurore01",
+    "nombre": "Autigard",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [540, 1978],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "aurore02",
+    "nombre": "Aube",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [592, 1971],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "aurore03",
+    "nombre": "Santuario de las Lágrimas",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [494, 2076],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "aurore04",
+    "nombre": "Ferosse",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [635, 2074],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "aurore05",
+    "nombre": "Isla de Valenlet",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [508, 2091],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "mn01",
+    "nombre": "Cabo del Mundo",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [288, 1341],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "mn02",
+    "nombre": "La Caldera",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [322, 1643],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "mn03",
+    "nombre": "Peñasco de Sisargard",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [432, 1772],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "mn04",
+    "nombre": "Northsby",
+    "tipo": "ciudad",
+    "faccion": "Feudom",
+    "coordenadas": [524, 1804],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "mn05",
+    "nombre": "Acantilados de Manlenn",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [469, 1900],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali01",
+    "nombre": "La Corona de Hierro",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1320, 2752],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali02",
+    "nombre": "Foso de Zimudar",
+    "tipo": "ciudad",
+    "faccion": "neutral",
+    "coordenadas": [1381, 2718],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali03",
+    "nombre": "Ciudad de las Especias",
+    "tipo": "ciudad",
+    "faccion": "Alianza",
+    "coordenadas": [1425, 2728],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali04",
+    "nombre": "Ciudad de las Cupula",
+    "tipo": "ciudad",
+    "faccion": "Alianza",
+    "coordenadas": [1359, 2882],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali05",
+    "nombre": "Ciudad de la Estrella",
+    "tipo": "ciudad",
+    "faccion": "Alianza",
+    "coordenadas": [1563, 2679],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali06",
+    "nombre": "Ciudad de las Velas",
+    "tipo": "ciudad",
+    "faccion": "Alianza",
+    "coordenadas": [1585, 2595],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali07",
+    "nombre": "Ciudad Afortunada",
+    "tipo": "ciudad",
+    "faccion": "Alianza",
+    "coordenadas": [1636, 2701],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali08",
+    "nombre": "Ciudad Umbria",
+    "tipo": "ciudad",
+    "faccion": "Alianza",
+    "coordenadas": [1520, 2743],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali09",
+    "nombre": "Mar de Oro",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1617, 2645],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali10",
+    "nombre": "Ciudad de las Nieblas",
+    "tipo": "ciudad",
+    "faccion": "Alianza",
+    "coordenadas": [1692, 2818],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali11",
+    "nombre": "Ciudad de los Gigantes",
+    "tipo": "ciudad",
+    "faccion": "Alianza",
+    "coordenadas": [1693, 2930],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "ali12",
+    "nombre": "Pico de Trueno",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1519, 2774],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "gabila01",
+    "nombre": "Galaibha",
+    "tipo": "ciudad",
+    "faccion": "Mounthaven",
+    "coordenadas": [1414, 1072],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "gabila02",
+    "nombre": "Llama Imperecedera",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1658, 642],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "karkara01",
+    "nombre": "Karkara",
+    "tipo": "ciudad",
+    "faccion": "Mounthaven",
+    "coordenadas": [775, 649],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "hard01",
+    "nombre": "Montañas de Harduba",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1229, 216],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "karkara02",
+    "nombre": "Silla del Gigante",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1132, 479],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "karkara03",
+    "nombre": "Montañas de Harduba",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1056, 489],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "karkara04",
+    "nombre": "Harduba",
+    "tipo": "ciudad",
+    "faccion": "Mounthaven",
+    "coordenadas": [1073, 554],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "karkara05",
+    "nombre": "Gulph",
+    "tipo": "ciudad",
+    "faccion": "Mounthaven",
+    "coordenadas": [883, 670],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "maiO01",
+    "nombre": "Paso de Wrisja",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [879, 783],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "maiC01",
+    "nombre": "Brunna",
+    "tipo": "ciudad",
+    "faccion": "Mounthaven",
+    "coordenadas": [826, 1185],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "maie01",
+    "nombre": "Adaufa",
+    "tipo": "ciudad",
+    "faccion": "Mounthaven",
+    "coordenadas": [698, 1364],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "maie02",
+    "nombre": "Wulpus",
+    "tipo": "ciudad",
+    "faccion": "Mounthaven",
+    "coordenadas": [644, 1580],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "main01",
+    "nombre": "Wimara",
+    "tipo": "ciudad",
+    "faccion": "Mounthaven",
+    "coordenadas": [372, 1352],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "main02",
+    "nombre": "Barca del Gigante",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [347, 1282],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "vastagos",
+    "nombre": "Punta Espino",
+    "tipo": "ciudad",
+    "faccion": "neutral",
+    "coordenadas": [988, 2750],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "bsr01",
+    "nombre": "La Grieta",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1080, 2378],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "bsr02",
+    "nombre": "Lago del Olvido",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1084, 2484],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "maev01",
+    "nombre": "Gran Duna",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [789, 2913],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "maev02",
+    "nombre": "Puente de las Manos",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [780, 3021],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "maev03",
+    "nombre": "Nemed",
+    "tipo": "ciudad",
+    "faccion": "Syennan",
+    "coordenadas": [834, 3060],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "hp01",
+    "nombre": "Abismo Azul",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [777, 2756],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "hp02",
+    "nombre": "Aoghan",
+    "tipo": "ciudad",
+    "faccion": "Syennan",
+    "coordenadas": [746, 2731],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "hp03",
+    "nombre": "Soto de Soanet",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [868, 1623],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "hp04",
+    "nombre": "Roca Verde",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [591, 1393],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "eadhar01",
+    "nombre": "Cerro del Coloso",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1998, 1911],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "eadhar02",
+    "nombre": "Senda Ceniza",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1837, 1771],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "eadhar03",
+    "nombre": "Bosque Cinéreo",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [2032, 1781],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "bi01",
+    "nombre": "Gran Lado de Nessabheist",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1378, 491],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "AA01",
+    "nombre": "Agujero Ciego",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1195, 406],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Grj01",
+    "nombre": "Brynjalmar",
+    "tipo": "ciudad",
+    "faccion": "Tribus",
+    "coordenadas": [483, 1274],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Grj02",
+    "nombre": "Midtenard",
+    "tipo": "ciudad",
+    "faccion": "Tribus",
+    "coordenadas": [640, 1270],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Grj03",
+    "nombre": "Knöll",
+    "tipo": "ciudad",
+    "faccion": "Tribus",
+    "coordenadas": [673, 1083],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Grj04",
+    "nombre": "Plaza de Grjotgard",
+    "tipo": "ciudad",
+    "faccion": "Tribus",
+    "coordenadas": [745, 1089],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Grj05",
+    "nombre": "Estaca de Noll",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [651, 1080],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Grj06",
+    "nombre": "Lago del Cielo",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [500, 1023],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Grj07",
+    "nombre": "Isla de las Cadenas",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [585, 1043],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Grj08",
+    "nombre": "Los Nidos",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [409, 1053],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Grj09",
+    "nombre": "Begynnelsen",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [337, 961],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "turb01",
+    "nombre": "Península del Abismo",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [334, 1084],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "turb02",
+    "nombre": "Las Turberas ",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [197, 1038],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "appo01",
+    "nombre": "Los Siete Durmientes ",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [111, 2163],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "appo02",
+    "nombre": "Península del Buohttá",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [145, 2658],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "appo03",
+    "nombre": "Fortaleza de Tromma ",
+    "tipo": "ciudad",
+    "faccion": "Tribus",
+    "coordenadas": [68, 2552],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "appo04",
+    "nombre": "Acantilados Carmesíes",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [171, 1968],
+    "descripcion": "Puesto  de control secundario."
+  },
+  {
+    "id": "tb01",
+    "nombre": "Acantilados Albos",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [186, 1329],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tb02",
+    "nombre": "Hallbarg",
+    "tipo": "ciudad",
+    "faccion": "Tribus",
+    "coordenadas": [110, 675],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tb03",
+    "nombre": "Bosque de los Árboles Blancos",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [56, 856],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tb04",
+    "nombre": "Playa de las Garras",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [140, 840],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tb05",
+    "nombre": "Ensenada de los Guijarros",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [73, 1239],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tb06",
+    "nombre": "Ferksvann",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [41, 1506],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tb07",
+    "nombre": "Puerto de Ferksvann",
+    "tipo": "ciudad",
+    "faccion": "Tribus",
+    "coordenadas": [133, 1469],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "tb08",
+    "nombre": "Upat",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [62, 1703],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Micen01",
+    "nombre": "Tenghera",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [1719, 2100],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Micen02",
+    "nombre": "Ariha",
+    "tipo": "ciudad",
+    "faccion": "Hegemonia",
+    "coordenadas": [1706, 2213],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "Bakh01",
+    "nombre": "Uulziavar",
+    "tipo": "ciudad",
+    "faccion": "Hegemonia",
+    "coordenadas": [836, 761],
+    "descripcion": "Puesto de control secundario."
+  },
+  {
+    "id": "bakh02",
+    "nombre": "Senda de la Sierpe",
+    "tipo": "hitos",
+    "faccion": "neutral",
+    "coordenadas": [701, 795],
     "descripcion": "Puesto de control secundario."
   }
+
 ]
